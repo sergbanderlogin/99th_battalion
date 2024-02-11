@@ -6272,7 +6272,7 @@ body {
 .header__about {
   width: 100%;
   min-height: 50vh;
-  background-image: url("../../images/about/about-bg-1.webp");
+  background-image: url("../images/about/about-bg-1.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
