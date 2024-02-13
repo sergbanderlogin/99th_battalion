@@ -84,6 +84,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -6623,7 +6624,7 @@ body {
 }
 
 .recruiting__aside {
-  background-image: url(/images/shapes/MM12.jpg);
+  background-image: url("../images/shapes/MM12.jpg");
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: overlay;
   background-size: cover;
@@ -6652,7 +6653,7 @@ body {
   color: #A0EC03;
 }
 .recruiting__aside--whatsApp {
-  background-image: url(/images/gallery/680/99th_gallery_001-680.jpg);
+  background-image: url("../images/gallery/680/99th_gallery_001-680.jpg");
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: overlay;
   background-size: cover;
