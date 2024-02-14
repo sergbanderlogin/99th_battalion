@@ -6649,8 +6649,11 @@ body {
   padding-top: 1rem;
   color: orange;
 }
-.recruiting__aside-paragraph {
+.recruiting__aside--paragraph {
   color: #A0EC03;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1.25rem, 5vw + 1.25rem, 1.75rem);
+  font-weight: 400;
 }
 .recruiting__aside--whatsApp {
   background-image: url("../images/gallery/680/99th_gallery_001-680.jpg");
@@ -6663,19 +6666,27 @@ body {
 }
 .recruiting__aside--whatsApp--title {
   font-weight: 300;
+  border-bottom: 1px solid orange;
 }
 
 /* For Questionnaire */
+.questionnaire-container {
+  width: 100vw;
+  padding: 0 0.25rem;
+}
 .questionnaire__title {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1.75rem, 5vw + 1.75rem, 2.5rem);
+  color: orange;
+  font-weight: 400;
   text-align: center;
   line-height: 1.2;
 }
 .questionnaire__form-wrapper {
   box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.5);
 }
-
-form {
-  width: 100%;
+.questionnaire__form-legend {
+  font-size: clamp(1rem, 5vw + 1rem, 1.8rem);
 }
 
 .questionnaire__form-label,
@@ -6783,6 +6794,14 @@ select {
     padding-top: 7rem;
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .questionnaire__title {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+  .questionnaire__form-wrapper, .questionnaire__form-fieldset {
+    margin: 1rem 0;
+    padding: 1rem 0.25rem;
   }
 }
 .header__donate--content {
